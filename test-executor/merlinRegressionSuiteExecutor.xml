@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MERLIN REGRESSION TESTS">
+
+	<test name="Log In Validation Tests">
+		<classes>
+			<class name="com.merlin.test.LogInValidationTests" />
+		</classes>
+	</test> 
+
+	<test name="Home Page Validation Tests">
+		<classes>
+			<class name="com.merlin.test.HomePageValidationTests" />
+		</classes>
+	</test>
+
+	<test name="NewsRoom Validation Tests">
+		<classes>
+			<class name="com.merlin.test.NewsRoomValidationTests" />
+		</classes>
+	</test>
+
+	<test name="Teamspaces Validation Tests">
+		<classes>
+			<class name="com.merlin.test.TeamspacesValidationTests" />
+		</classes>
+	</test>
+	
+	<test name="Initiatives Validation Tests">
+		<classes>
+			<class name="com.merlin.test.InitiativesValidationTests" />
+		</classes>
+	</test>
+	
+	<test name="Help And Support Validation Tests">
+		<classes>
+			<class name="com.merlin.test.HelpAndSupportValidationTests" />
+		</classes>
+	</test>
+
+
+
+</suite>
